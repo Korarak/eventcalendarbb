@@ -1,14 +1,13 @@
 <meta http-equiv=Content-Type content="text/html; charset=utf-8">
 <?php
 include_once 'connect.php';
-@session_start();
 ?>
 
 <html>
     <head>
         <title>User Calendar</title>
         <link href="css/font-awesome.css" rel="stylesheet" media="all">
-		<link href="css/bootstrap.css" rel="stylesheet" media="all">
+		<link href="https://bootswatch.com/flatly/bootstrap.css" rel="stylesheet" media="all">
         <script>
 
             function goLastMonth(month, year) {
