@@ -1,5 +1,5 @@
 # eventcalendarbb
-my Eventcalendar
+my Eventcalendar (html,php,j-query,javascript,bootstrap)
 
 How to install
 1. create table on your database like this
