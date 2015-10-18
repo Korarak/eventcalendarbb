@@ -10,8 +10,7 @@
         $(function () {
             $("#datepicker").datepicker({
                 dateFormat: 'yy-mm-dd',
-                showOn: "button",
-                buttonImage: "img/calendar.gif"
+                
               
             });
         });
@@ -20,8 +19,7 @@
         $(function () {
             $("#datepicker2").datepicker({
                 dateFormat: 'yy-mm-dd',
-                showOn: "button",
-                buttonImage: "img/calendar.gif"
+              
                 
             });
         });
