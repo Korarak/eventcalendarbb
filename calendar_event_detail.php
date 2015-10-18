@@ -3,7 +3,7 @@
         <title>B Event on Calendar</title>
         <meta http-equiv=Content-Type content="text/html; charset=utf-8">
         <link href="https://bootswatch.com/flatly/bootstrap.css" rel="stylesheet" media="all">
-        <link href="css/font-awesome.css" rel="stylesheet" media="all">
+        
 
     </head>
     <body>
@@ -13,7 +13,7 @@
         $strSQL2 = "SELECT * FROM `event_dtl` WHERE `event_no` ='".$_GET['event_no']."'";
         $objQuery2 = mysql_query($strSQL2) or die("Error Query [" . $strSQL2 . "]");
         ?><br/>
-    <center><i class="fa fa-info-circle fa-2x">&nbsp;&nbsp;event detail</i>
+    <center>&nbsp;&nbsp;event detail
         <?php
         while ($objResult2 = mysql_fetch_array($objQuery2)) {
             ?>
