@@ -6,7 +6,6 @@ include_once 'connect.php';
 <html>
     <head>
         <title>User Calendar</title>
-        <link href="css/font-awesome.css" rel="stylesheet" media="all">
 		<link href="https://bootswatch.com/flatly/bootstrap.css" rel="stylesheet" media="all">
         <script>
 
