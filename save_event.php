@@ -1,5 +1,5 @@
 <head><meta http-equiv=Content-Type content="text/html; charset=utf-8">
-    <link href="css/font-awesome.css" rel="stylesheet" media="all"></head>
+</head>
 <?php
 ?>
 <?php
@@ -23,7 +23,6 @@ $qry = mysql_query($sql);
 
 if ($qry) {
     echo '<center>INSERT Complete</center>';
-    echo "<center><i class='fa fa-spinner fa-spin fa-5x'></i></center>";
 	echo "<meta http-equiv='refresh' content='1;URL=calendar.php'>";
 } else {
     echo 'Error Insert';
