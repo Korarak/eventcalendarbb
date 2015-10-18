@@ -12,3 +12,6 @@ How to install
   >status
 2. config your database connection in connect.php
 3. start at calendar.php
+
+
+Credit : unknownghost03,tumSiamfocus
